@@ -8,12 +8,12 @@
      fully backwards compatible with SMS Backup.
   </string>
 
-  <string name="ui_sync_button_label_idle">¹é¾÷</string>
-  <string name="ui_sync_button_label_canceling">¸ØÃß´ÂÁß</string>
-  <string name="ui_sync_button_label_syncing">ÁßÁö</string>
+  <string name="ui_sync_button_label_idle">ë°±ì—…</string>
+  <string name="ui_sync_button_label_canceling">ë©ˆì¶”ëŠ”ì¤‘ring>
+  <string name="ui_sync_button_label_syncing">ì¤‘ì§€</string>
 
-  <string name="ui_restore_button_label_idle">º¹±¸</string>
-  <string name="ui_restore_button_label_restoring">ÁßÁö</string>
+  <string name="ui_restore_button_label_idle">ë³µì›</string>
+  <string name="ui_restore_button_label_restoring">ì¤‘ì§€</string>
 
   <string name="status_idle">´ë±âÁß</string>
   <string name="status_idle_details">¸¶Áö¸· ¹é¾÷: <xliff:g id="last_backup_date">%1$s</xliff:g></string>
