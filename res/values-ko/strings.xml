@@ -8,29 +8,29 @@
      fully backwards compatible with SMS Backup.
   </string>
 
-  <string name="ui_sync_button_label_idle">ë°±ì—…</string>
-  <string name="ui_sync_button_label_canceling">ë©ˆì¶”ëŠ”ì¤‘ring>
-  <string name="ui_sync_button_label_syncing">ì¤‘ì§€</string>
+  <string name="ui_sync_button_label_idle">Backup</string>
+  <string name="ui_sync_button_label_canceling">Stopping</string>
+  <string name="ui_sync_button_label_syncing">Stop</string>
 
-  <string name="ui_restore_button_label_idle">ë³µì›</string>
-  <string name="ui_restore_button_label_restoring">ì¤‘ì§€</string>
+  <string name="ui_restore_button_label_idle">Restore</string>
+  <string name="ui_restore_button_label_restoring">Stop</string>
 
-  <string name="status_idle">´ë±âÁß</string>
-  <string name="status_idle_details">¸¶Áö¸· ¹é¾÷: <xliff:g id="last_backup_date">%1$s</xliff:g></string>
-  <string name="status_idle_details_never">¾øÀ½</string>
+  <string name="status_idle">Idle</string>
+  <string name="status_idle_details">Last item backed up: <xliff:g id="last_backup_date">%1$s</xliff:g></string>
+  <string name="status_idle_details_never">never</string>
 
-  <string name="status_working">ÀÛ¾÷Áß</string>
+  <string name="status_working">Working</string>
 
-  <string name="status_backup">¹é¾÷Áß</string>
-  <string name="status_restore">º¹±¸Áß</string>
+  <string name="status_backup">Backing up</string>
+  <string name="status_restore">Restoring</string>
 
-  <string name="status_backup_details">¹®ÀÚ <xliff:g id="backed_up_items">%1$d</xliff:g>/<xliff:g id="total_items">%2$d</xliff:g> °³ ¹é¾÷ ¿Ï·á\u2026</string>
-  <string name="status_restore_details">¹®ÀÚ <xliff:g id="backed_up_items">%1$d</xliff:g>/<xliff:g id="total_items">%2$d</xliff:g> °³ º¹±¸ ¿Ï·á\u2026</string>
-  <string name="status_login_details">·Î±×ÀÎÁß\u2026</string>
-  <string name="status_updating_threads">´ëÈ­ ¾÷µ¥ÀÌÆ®Áß\u2026</string>
-  <string name="status_done">¿Ï·á</string>
-  <string name="status_backup_done_details_max_per_sync">ÇÑ¹ø¿¡ ¹é¾÷ ÃÖ´ë %1$d Ç×¸ñ µµ´Ş. ¹é¾÷À» Àç½ÃÀÛ ÇØÁÖ¼¼¿ä.</string>
-  <string name="status_backup_done_details_noitems">¹é¾÷ÇÒ Ç×¸ñÀÌ ¾ø½À´Ï´Ù.</string>
+  <string name="status_backup_details">Backed up <xliff:g id="backed_up_items">%1$d</xliff:g>/<xliff:g id="total_items">%2$d</xliff:g> items\u2026</string>
+  <string name="status_restore_details">Restored <xliff:g id="backed_up_items">%1$d</xliff:g>/<xliff:g id="total_items">%2$d</xliff:g> items\u2026</string>
+  <string name="status_login_details">Logging in\u2026</string>
+  <string name="status_updating_threads">Updating threads\u2026</string>
+  <string name="status_done">Done</string>
+  <string name="status_backup_done_details_max_per_sync">Maximum of %1$d items per backup reached. Restart backup to continue.</string>
+  <string name="status_backup_done_details_noitems">There were no items to backup.</string>
 
   <plurals name="status_backup_done_details">
     <item quantity="one">Successfully backed up <xliff:g id="total_items">%1$d</xliff:g> item.</item>
@@ -44,37 +44,37 @@
 
   <string name="status_restore_canceled_details">%1$d/%2$d items successfully restored.</string>
 
-  <string name="status_unknown_error">¿À·ù</string>
-  <string name="notification_unknown_error">SMSBackup+ ¿À·ù</string>
+  <string name="status_unknown_error">Error</string>
+  <string name="notification_unknown_error">SMSBackup+ error</string>
 
-  <string name="status_unknown_error_details">¹é¾÷/º¹±¸Áß ¿À·ù:\n<xliff:g id="error_description">%1$s</xliff:g></string>
-  <string name="status_auth_failure">·Î±×ÀÎ ¿À·ù</string>
-  <string name="notification_auth_failure">SMSBackup+ ·Î±×ÀÎ ¿À·ù</string>
+  <string name="status_unknown_error_details">Error during backup/restore:\n<xliff:g id="error_description">%1$s</xliff:g></string>
+  <string name="status_auth_failure">Login error</string>
+  <string name="notification_auth_failure">SMSBackup+ login error</string>
 
-  <string name="status_auth_failure_details_xoauth">XOAuth ±ÇÇÑ ¿À·ù. Gmail°èÁ¤ ¼³Á¤¿¡ IMAPÀÌ È°¼ºÈ­ µÇ¾îÀÖ´ÂÁö È®ÀÎÇÏ¼¼¿ä.</string>
-  <string name="status_auth_failure_details_plain">IMAP ±ÇÇÑ ¿À·ù.
-  ·Î±×ÀÎ ¾ÆÀÌµğ¿Í ºñ¹Ğ¹øÈ£¸¦ È®ÀÎÇØ ÁÖ¼¼¿ä.</string>
-  <string name="status_calc_details">°è»êÁß\u2026</string>
-  <string name="status_canceled">Ãë¼Ò</string>
-  <string name="status_canceled_details">%1$d/%2$d Ç×¸ñÀÌ ¼º°øÀûÀ¸·Î ¹é¾÷µÇ¾ú½À´Ï´Ù.</string>
-  <string name="status_gmail_temp_error">ÀÏÁö¼®ÀÎ Gmail IMAP ¿À·ù, Àá½ÃÈÄ ´Ù½Ã ½ÃµµÇÏ¼¼¿ä.</string>
+  <string name="status_auth_failure_details_xoauth">XOAuth authorization error. Please make sure you enabled IMAP in your Gmail account settings.</string>
+  <string name="status_auth_failure_details_plain">IMAP authorization error.
+  Make sure login and password are set correctly.</string>
+  <string name="status_calc_details">Calculating\u2026</string>
+  <string name="status_canceled">Canceled</string>
+  <string name="status_canceled_details">%1$d/%2$d items successfully backed up.</string>
+  <string name="status_gmail_temp_error">Temporary Gmail IMAP error, try again later.</string>
 
-  <string name="ui_settings_advanced_label">°í±Ş ¼³Á¤</string>
-  <string name="ui_settings_advanced_desc">°í±Ş È¯°æ ¼³Á¤</string>
-  <string name="ui_settings_advanced_server_label">IMAP ¼­¹ö ¼³Á¤</string>
-  <string name="ui_settings_advanced_server_desc">ÁÖÀÇ! ÇÔºÎ·Î ¹Ù²ÙÁö ¸¶½Ê½Ã¿À.</string>
+  <string name="ui_settings_advanced_label">Advanced settings</string>
+  <string name="ui_settings_advanced_desc">Set advanced preferences.</string>
+  <string name="ui_settings_advanced_server_label">IMAP server settings</string>
+  <string name="ui_settings_advanced_server_desc">Do not change unless you know what you are doing!</string>
 
-  <string name="imap_settings">IMAP ¼³Á¤</string>
-  <string name="ui_login_label">¾ÆÀÌµğ</string>
-  <string name="ui_login_desc">IMAP °èÁ¤/e-mail ÁÖ¼Ò.</string>
-  <string name="ui_login_dialog_msg">ÁÖÀÇ: ¾ÆÀÌµğ¸¦ ¹Ù²Ù¸é XOAuth »ç¿ë½Ã ¹®Á¦°¡ ¹ß»ıÇÒ ¼ö ÀÖ½À´Ï´Ù.</string>
-  <string name="ui_password_label">ºñ¹Ğ¹øÈ£</string>
-  <string name="ui_password_desc">IMAP °èÁ¤ ºñ¹Ğ¹øÈ£. XOAuth °¡ ºñÈ°¼ºÈ­ µÇ¾îÀÖÀ»¶§¸¸ »ç¿ëµË´Ï´Ù.</string>
-  <string name="ui_password_dialog_msg">ºñ¹Ğ¹øÈ£´Â µğ¹ÙÀÌ½º¿¡ ÀúÀåµÇ°í ·Î±×ÀÎ½Ã¿¡¸¸ »ç¿ëµË´Ï´Ù.</string>
-  <string name="ui_server_label">¼­¹ö ÁÖ¼Ò</string>
-  <string name="ui_server_desc">¿¬°áÇÏ·Á´Â ¼­¹öÀÇ ÁÖ¼Ò. Æ÷Æ® ¹øÈ£µµ Æ÷ÇÔÇÏ½Ê½Ã¿À.</string>
-  <string name="ui_server_dialog_msg">Gmail ±âº» ¼³Á¤Àº \"imap.gmail.com:993\" ÀÔ´Ï´Ù.</string>
-  <string name="ui_protocol_label">º¸¾È</string>
+  <string name="imap_settings">IMAP settings</string>
+  <string name="ui_login_label">Username</string>
+  <string name="ui_login_desc">Your IMAP account/e-mail address.</string>
+  <string name="ui_login_dialog_msg">WARNING: Changing the username might break things when using XOAuth.</string>
+  <string name="ui_password_label">Password</string>
+  <string name="ui_password_desc">Your IMAP account password. Only used when XOAuth is disabled.</string>
+  <string name="ui_password_dialog_msg">The password is stored on this device and is only used to login.</string>
+  <string name="ui_server_label">Server address</string>
+  <string name="ui_server_desc">The address of the server you wish to sync to incl. its port.</string>
+  <string name="ui_server_dialog_msg">Default for gmail is \"imap.gmail.com:993\"</string>
+  <string name="ui_protocol_label">Security</string>
   <string name="ui_protocol_desc">The security protocol of the server. Default for gmail is \"SSL (Required)\"."</string>
   <string name="ui_authentication_label">Authentication</string>
   <string name="ui_authentication_desc">The authentication method. Default for gmail is \"XOAuth\".</string>
