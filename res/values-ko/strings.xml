@@ -8,81 +8,81 @@
      fully backwards compatible with SMS Backup.
   </string>
 
-  <string name="ui_sync_button_label_idle">Backup</string>
-  <string name="ui_sync_button_label_canceling">Stopping</string>
-  <string name="ui_sync_button_label_syncing">Stop</string>
+  <string name="ui_sync_button_label_idle">백업</string>
+  <string name="ui_sync_button_label_canceling">멈추는 중</string>
+  <string name="ui_sync_button_label_syncing">중지</string>
 
-  <string name="ui_restore_button_label_idle">Restore</string>
-  <string name="ui_restore_button_label_restoring">Stop</string>
+  <string name="ui_restore_button_label_idle">복구</string>
+  <string name="ui_restore_button_label_restoring">중지</string>
 
-  <string name="status_idle">Idle</string>
-  <string name="status_idle_details">Last item backed up: <xliff:g id="last_backup_date">%1$s</xliff:g></string>
-  <string name="status_idle_details_never">never</string>
+  <string name="status_idle">대기</string>
+  <string name="status_idle_details">마지막 백업 날짜: <xliff:g id="last_backup_date">%1$s</xliff:g></string>
+  <string name="status_idle_details_never">없음</string>
 
-  <string name="status_working">Working</string>
+  <string name="status_working">작업중</string>
 
-  <string name="status_backup">Backing up</string>
-  <string name="status_restore">Restoring</string>
+  <string name="status_backup">백업중</string>
+  <string name="status_restore">복구중</string>
 
-  <string name="status_backup_details">Backed up <xliff:g id="backed_up_items">%1$d</xliff:g>/<xliff:g id="total_items">%2$d</xliff:g> items\u2026</string>
-  <string name="status_restore_details">Restored <xliff:g id="backed_up_items">%1$d</xliff:g>/<xliff:g id="total_items">%2$d</xliff:g> items\u2026</string>
-  <string name="status_login_details">Logging in\u2026</string>
-  <string name="status_updating_threads">Updating threads\u2026</string>
-  <string name="status_done">Done</string>
-  <string name="status_backup_done_details_max_per_sync">Maximum of %1$d items per backup reached. Restart backup to continue.</string>
-  <string name="status_backup_done_details_noitems">There were no items to backup.</string>
+  <string name="status_backup_details"><xliff:g id="backed_up_items">%1$d</xliff:g>/<xliff:g id="total_items">%2$d</xliff:g> 항목 백업됨\u2026</string>
+  <string name="status_restore_details"><xliff:g id="backed_up_items">%1$d</xliff:g>/<xliff:g id="total_items">%2$d</xliff:g> 복구됨\u2026</string>
+  <string name="status_login_details">로그인중\u2026</string>
+  <string name="status_updating_threads">대화 업데이트중\u2026</string>
+  <string name="status_done">완료</string>
+  <string name="status_backup_done_details_max_per_sync">백업당 최대 %1$d 항목 초과. 백업을 재실행 해주세요.</string>
+  <string name="status_backup_done_details_noitems">백업할 항목이 없습니다.</string>
 
   <plurals name="status_backup_done_details">
-    <item quantity="one">Successfully backed up <xliff:g id="total_items">%1$d</xliff:g> item.</item>
-    <item quantity="other">Successfully backed up <xliff:g id="total_items">%1$d</xliff:g> items.</item>
+    <item quantity="one"><xliff:g id="total_items">%1$d</xliff:g> 항목 성공적으로 백업됨.</item>
+    <item quantity="other"><xliff:g id="total_items">%1$d</xliff:g> 항목 성공적으로 백업됨.</item>
   </plurals>
 
   <plurals name="status_restore_done_details">
-    <item quantity="one">Successfully restored <xliff:g id="total_items">%1$d</xliff:g> item (%2$d dups).</item>
-    <item quantity="other">Successfully restored <xliff:g id="total_items">%1$d</xliff:g> items (%2$d dups).</item>
+    <item quantity="one"><xliff:g id="total_items">%1$d</xliff:g> 항목 성공적으로 복구됨 (%2$d 중복).</item>
+    <item quantity="other"><xliff:g id="total_items">%1$d</xliff:g> 항목 성공적으로 복구됨 (%2$d 중복).</item>
   </plurals>
 
-  <string name="status_restore_canceled_details">%1$d/%2$d items successfully restored.</string>
+  <string name="status_restore_canceled_details">%1$d/%2$d 항목 성공적으로 복구됨.</string>
 
-  <string name="status_unknown_error">Error</string>
-  <string name="notification_unknown_error">SMSBackup+ error</string>
+  <string name="status_unknown_error">오류</string>
+  <string name="notification_unknown_error">SMSBackup+ 오류</string>
 
-  <string name="status_unknown_error_details">Error during backup/restore:\n<xliff:g id="error_description">%1$s</xliff:g></string>
-  <string name="status_auth_failure">Login error</string>
-  <string name="notification_auth_failure">SMSBackup+ login error</string>
+  <string name="status_unknown_error_details">백업/복구 도우 오류:\n<xliff:g id="error_description">%1$s</xliff:g></string>
+  <string name="status_auth_failure">로그인 오류</string>
+  <string name="notification_auth_failure">SMSBackup+ 로그인 오류</string>
 
-  <string name="status_auth_failure_details_xoauth">XOAuth authorization error. Please make sure you enabled IMAP in your Gmail account settings.</string>
-  <string name="status_auth_failure_details_plain">IMAP authorization error.
-  Make sure login and password are set correctly.</string>
-  <string name="status_calc_details">Calculating\u2026</string>
-  <string name="status_canceled">Canceled</string>
-  <string name="status_canceled_details">%1$d/%2$d items successfully backed up.</string>
-  <string name="status_gmail_temp_error">Temporary Gmail IMAP error, try again later.</string>
+  <string name="status_auth_failure_details_xoauth">XOAuth 인증 오류. Gmail설정에 IMAP이 활성화 되어 있는지 확인하세요.</string>
+  <string name="status_auth_failure_details_plain">IMAP 인증 오류.
+  아이디와 비밀번호가 정확한지 확인 하세요.</string>
+  <string name="status_calc_details">계산중\u2026</string>
+  <string name="status_canceled">취소됨</string>
+  <string name="status_canceled_details">%1$d/%2$d 항목 성공적으로 백업됨..</string>
+  <string name="status_gmail_temp_error">일시적 Gmail IMAP 오류, 잠시후 다시 시도하세요.</string>
 
-  <string name="ui_settings_advanced_label">Advanced settings</string>
-  <string name="ui_settings_advanced_desc">Set advanced preferences.</string>
-  <string name="ui_settings_advanced_server_label">IMAP server settings</string>
-  <string name="ui_settings_advanced_server_desc">Do not change unless you know what you are doing!</string>
+  <string name="ui_settings_advanced_label">고급 설정</string>
+  <string name="ui_settings_advanced_desc">고급 환경 설정</string>
+  <string name="ui_settings_advanced_server_label">IMAP 서버 설정</string>
+  <string name="ui_settings_advanced_server_desc">주의: 정확한 지식 없이 건드리지 마세요!</string>
 
-  <string name="imap_settings">IMAP settings</string>
-  <string name="ui_login_label">Username</string>
-  <string name="ui_login_desc">Your IMAP account/e-mail address.</string>
-  <string name="ui_login_dialog_msg">WARNING: Changing the username might break things when using XOAuth.</string>
-  <string name="ui_password_label">Password</string>
-  <string name="ui_password_desc">Your IMAP account password. Only used when XOAuth is disabled.</string>
+  <string name="imap_settings">IMAP 설정</string>
+  <string name="ui_login_label">아이디</string>
+  <string name="ui_login_desc">IMAP 계정/e-mail 주소.</string>
+  <string name="ui_login_dialog_msg">경고: XOAuth 사용시 아이디를 변경하면 문제가 생길수 있습니다.</string>
+  <string name="ui_password_label">비밀번호</string>
+  <string name="ui_password_desc">IMAP 계정 비밀번호. XOAuth가 비활성화 되어 있을때만 사용됩니다.</string>
   <string name="ui_password_dialog_msg">The password is stored on this device and is only used to login.</string>
-  <string name="ui_server_label">Server address</string>
-  <string name="ui_server_desc">The address of the server you wish to sync to incl. its port.</string>
-  <string name="ui_server_dialog_msg">Default for gmail is \"imap.gmail.com:993\"</string>
-  <string name="ui_protocol_label">Security</string>
-  <string name="ui_protocol_desc">The security protocol of the server. Default for gmail is \"SSL (Required)\"."</string>
-  <string name="ui_authentication_label">Authentication</string>
-  <string name="ui_authentication_desc">The authentication method. Default for gmail is \"XOAuth\".</string>
+  <string name="ui_server_label">서버 주소</string>
+  <string name="ui_server_desc">연결하려는 서버 주소 (포트 포함).</string>
+  <string name="ui_server_dialog_msg">Gmail 기본값은 \"imap.gmail.com:993\"</string>
+  <string name="ui_protocol_label">보안</string>
+  <string name="ui_protocol_desc">서버의 보한 설정. Gmail 기본값은 \"SSL (Required)\"."</string>
+  <string name="ui_authentication_label">인증</string>
+  <string name="ui_authentication_desc">인증 방법. Gmail 기본값은 \"XOAuth\".</string>
   <string name="plain">Plain text</string>
   <string name="xoauth">XOAuth</string>
 
-  <string name="ui_imap_folder_label">Gmail label</string>
-  <string name="ui_imap_folder_desc">Gmail label assigned to SMS.</string>
+  <string name="ui_imap_folder_label">Gmail 라벨</string>
+  <string name="ui_imap_folder_desc">문자에 지정된 Gmail 라벨.</string>
   <string name="ui_imap_folder_label_dialog_msg">Backed up SMS messages will be tagged with this label in Gmail.</string>
   <string name="ui_mail_subject_prefix_label">Email subject prefix</string>
   <string name="ui_mail_subject_prefix_desc">Use IMAP folder name as prefix in email subject</string>
